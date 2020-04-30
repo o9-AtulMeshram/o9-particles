@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Primary Meta Tags -->
+	<title>o9 — Interactive Particles</title>
+	<meta name="title" content="o9 — Interactive Particles">
+	<meta name="description" content="Demo of a large number of interactive particles with Three.js and GSAP.">
+	<meta name="author" content="Atul Meshram" />
+	<meta name="keywords"
+		content="three.js, gsap, particles, interactive, javascript, webgl, animation, cursor, colors, background, bubbles, circle" />
+
+	<link rel="shortcut icon" href="https://o9-atulmeshram.github.io/o9-particles/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57"
+		href="https://o9-atulmeshram.github.io/o9-particles/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114"
+		href="https://o9-atulmeshram.github.io/o9-particles/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72"
+		href="https://o9-atulmeshram.github.io/o9-particles/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144"
+		href="https://o9-atulmeshram.github.io/o9-particles/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60"
+		href="https://o9-atulmeshram.github.io/o9-particles/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120"
+		href="https://o9-atulmeshram.github.io/o9-particles/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76"
+		href="https://o9-atulmeshram.github.io/o9-particles/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152"
+		href="https://o9-atulmeshram.github.io/o9-particles/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="https://o9-atulmeshram.github.io/o9-particles/favicon-196x196.png"
+		sizes="196x196" />
+	<link rel="icon" type="image/png" href="https://o9-atulmeshram.github.io/o9-particles/favicon-96x96.png"
+		sizes="96x96" />
+	<link rel="icon" type="image/png" href="https://o9-atulmeshram.github.io/o9-particles/favicon-32x32.png"
+		sizes="32x32" />
+	<link rel="icon" type="image/png" href="https://o9-atulmeshram.github.io/o9-particles/favicon-16x16.png"
+		sizes="16x16" />
+	<link rel="icon" type="image/png" href="https://o9-atulmeshram.github.io/o9-particles/favicon-128.png"
+		sizes="128x128" />
+	<meta name="application-name" content="o9 - Interactive Particles" />
+	<meta name="msapplication-TileColor" content="#0A0812" />
+	<meta name="msapplication-TileImage" content="https://o9-atulmeshram.github.io/o9-particles/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="https://o9-atulmeshram.github.io/o9-particles/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo"
+		content="https://o9-atulmeshram.github.io/o9-particles/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo"
+		content="https://o9-atulmeshram.github.io/o9-particles/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo"
+		content="https://o9-atulmeshram.github.io/o9-particles/mstile-310x310.png" />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://metatags.io/">
+	<meta property="og:title" content="o9 — Interactive Particles">
+	<meta property="og:description" content="Demo of a large number of interactive particles with Three.js and GSAP.">
+	<meta property="og:image" content="https://www.dropbox.com/s/xdyeahh9ginwdro/og-thumb.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://metatags.io/">
+	<meta property="twitter:title" content="o9 — Interactive Particles">
+	<meta property="twitter:description"
+		content="Demo of a large number of interactive particles with Three.js and GSAP.">
+	<meta property="twitter:image" content="https://www.dropbox.com/s/ukcp39jcsvjrtir/tweet-thumb.png">
+
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165203248-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-165203248-1');
+	</script>
+</head>
+
+<body class="demo">
+	<div class="content">
+		<div class="bg bg--canvas"></div>
+		<div class="circle-cursor circle-cursor--inner"></div>
+		<div class="circle-cursor circle-cursor--outer"></div>
+		<div class="container"></div>
+	</div>
+	<script src="background/noise.min.js"></script>
+	<script src="background/util.js"></script>
+	<script src="background/shift.js"></script>
+<script type="text/javascript" src="scripts/index.6490374ba4e11b36dc6c.js"></script></body>
+
+</html>
